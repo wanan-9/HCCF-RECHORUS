@@ -1,0 +1,78 @@
+INFO:root:Namespace(model_name='HCCF', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2025-12-22 16:08:51 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 100                 
+ eval_batch_size    | 256                 
+ gpu                | 0                   
+ keep_rate          | 0.5                 
+ l2                 | 1e-06               
+ leaky              | 0.5                 
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 2                   
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ ssl_reg            | 0.0                 
+ temp               | 0.2                 
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:#params: 1497344
+INFO:root:HCCF(
+  (user_embedding): Embedding(14682, 64)
+  (item_embedding): Embedding(8714, 64)
+  (leaky_relu): LeakyReLU(negative_slope=0.5)
+)
+INFO:root:Namespace(model_name='HCCF', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2025-12-22 16:13:40 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 100                 
+ eval_batch_size    | 256                 
+ gpu                | 0                   
+ keep_rate          | 0.5                 
+ l2                 | 1e-06               
+ leaky              | 0.5                 
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 2                   
+ num_neg            | 1                   
+ num_workers        | 0                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ ssl_reg            | 0.0                 
+ temp               | 0.2                 
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:#params: 1497344
+INFO:root:HCCF(
+  (user_embedding): Embedding(14682, 64)
+  (item_embedding): Embedding(8714, 64)
+  (leaky_relu): LeakyReLU(negative_slope=0.5)
+)
